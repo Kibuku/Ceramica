@@ -1,12 +1,12 @@
 import type {Component} from 'solid-js';
 
 import styles from '../../assets/App.module.css';
+import NavBar from "../common/navbar";
 const Home: Component = () => {
     return (
-        <div class={styles.App}>
-            Home-123
-            <a class="btn btn-primary" href="#" role="button">Link</a>
-        </div>
+       <div>
+           home
+       </div>
     );
 };
 

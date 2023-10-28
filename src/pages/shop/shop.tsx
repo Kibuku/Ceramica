@@ -1,10 +1,12 @@
 import type {Component} from 'solid-js';
+import NavBar from "../common/navbar";
 
-import styles from '../../assets/App.module.css';
 const Shop: Component = () => {
     return (
-        <div class={styles.App}>
-            Shop
+        <div >
+            <NavBar/>
+
+            <div class="hero" style="background-image: url('images/1.jpg');"></div>
         </div>
     );
 };
