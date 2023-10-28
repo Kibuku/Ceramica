@@ -4,7 +4,7 @@ import "../../assets/shop.css";
 
 const Shop: Component = () => {
     return (
-        <div class="shop-container" >
+        <div class="page-container" >
             <NavBar/>
 
             <div class="hero" ></div>

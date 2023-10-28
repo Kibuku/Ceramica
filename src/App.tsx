@@ -8,6 +8,7 @@ import Classes from "./pages/classes/classes";
 import ContactUs from "./pages/contactUs/contact_us";
 import Cart from "./pages/cart/cart";
 import CartPayment from "./pages/cart/cart_payment";
+import AboutUs from "./pages/aboutUs/aboutUs";
 
 const App: Component = () => {
   return (
@@ -16,7 +17,8 @@ const App: Component = () => {
           <Route  path="/cart_payment" component={CartPayment} />
           <Route path="/cart" component={Cart} />
           <Route path="/contact_us" component={ContactUs} />
-          <Route path="/classes" component={Classes} />  
+          <Route path="/about_us" component={AboutUs} />
+          <Route path="/classes" component={Classes} />
           <Route path="/shop" component={Shop} />  
           <Route path="/" component={Home} />
         </Routes>

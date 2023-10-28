@@ -4,7 +4,7 @@ import "../../assets/classes.css";
 
 const Classes: Component = () => {
     return (
-        <div  class="shop-container" >
+        <div  class="page-container" >
             <NavBar/>
 
             <div  class="hero" ></div>
