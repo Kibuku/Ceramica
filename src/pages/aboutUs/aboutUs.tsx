@@ -5,7 +5,7 @@ import NavBar from "../common/navbar";
 
 const AboutUs: Component = () => {
     return (
-        <div class="backdrop">
+        <div class="about-backdrop">
             <NavBar/>
 
             <div class="container h-100">

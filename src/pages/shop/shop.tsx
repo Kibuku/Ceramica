@@ -4,11 +4,11 @@ import "../../assets/shop.css";
 
 const Shop: Component = () => {
     return (
-        <div class="page-container" >
+        <div class="shop-container" >
             <NavBar/>
 
-            <div class="hero" ></div>
-            <div class="backdrop">
+            <div class="shop-hero" ></div>
+            <div class="shop-backdrop">
                 <div class="container h-100">
                     <div class="row h-100">
                         <div class="col-12 d-flex justify-content-center align-items-center">

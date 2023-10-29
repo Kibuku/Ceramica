@@ -1,19 +1,26 @@
 import type {Component} from 'solid-js';
 import {A} from "@solidjs/router";
 import {createSignal} from "solid-js";
+import {Button, Modal} from "solid-bootstrap";
 
 const NavBar: Component = () => {
+
+    const [showCheckOut, setShowCheckOut] = createSignal(false);
     const [show, setShow] = createSignal(false);
+    const handleOpen = () => setShow(true);
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+
+
     // @ts-ignore
     return (
-        <div >
+        <div>
             <header class="site-navbar mt-3">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         {/*<div class="site-logo col-6 text-black"><a href="index.html">Brand</a></div>*/}
-                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/7.png" alt="ceramica"  style="width:100px; height:100px"/></A></div>
+                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/7.png" alt="ceramica"
+                                                                                 style="width:100px; height:100px"/></A>
+                        </div>
 
                         <nav class="mx-auto site-navigation">
                             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
@@ -22,11 +29,19 @@ const NavBar: Component = () => {
                                 <li><A href="/classes">Classes</A></li>
                                 <li><A href="/about_us">About Us</A></li>
                                 <li><A href="/contact_us">Contact Us</A></li>
-                                <li><A href="/cart">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                <li><A href="" onClick={(e) => {
+                                    e.preventDefault();
+                                    handleOpen()
+                                }}>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
                                     </svg>
                                 </A></li>
+
+
                             </ul>
                         </nav>
 
@@ -34,7 +49,32 @@ const NavBar: Component = () => {
                 </div>
             </header>
 
+            <Modal show={show()} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    {
+                        showCheckOut() ?
 
+                            <p>Checkout page</p>
+                            :
+                            <p>Order details</p>
+                    }
+                    Woohoo, you're reading this text in a modal!
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>Close</Button>
+
+                    {showCheckOut() ? <></> :  <Button variant="primary" onClick={(e) => {
+                        if (showCheckOut()) {
+                            handleClose()
+                        } else {
+                            setShowCheckOut(true);
+                        }
+                    }}> Checkout</Button>}
+                </Modal.Footer>
+            </Modal>
 
 
         </div>
