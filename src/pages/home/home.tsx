@@ -9,7 +9,7 @@ const Home: Component = () => {
     const navigate = useNavigate();
     return (
         <div>
-            <div class={showModalBackDrop() ? "modal-backdrop" : ""} />
+            {/*<div class={showModalBackDrop() ? "modal-backdrop" : ""} />*/}
 
             <header class="site-navbar mt-3">
                 <div class="container-fluid">

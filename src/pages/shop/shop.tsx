@@ -7,7 +7,7 @@ const Shop: Component = () => {
     return (
         <div class="shop-container" >
             <NavBar/>
-            <div class={showModalBackDrop() ? "modal-backdrop" : ""} />
+            {/*<div class={showModalBackDrop() ? "modal-backdrop" : ""} />*/}
             <div class="shop-hero" ></div>
             <div class="shop-backdrop">
                 <div class="container h-100">

@@ -6,7 +6,7 @@ import {showModalBackDrop} from "../../store";
 const Classes: Component = () => {
     return (
         <div  class="classes-page-container" >
-            <div class={showModalBackDrop() ? "modal-backdrop" : ""} />
+            {/*<div class={showModalBackDrop() ? "modal-backdrop" : ""} />*/}
             <NavBar/>
 
             <div  class="classes-hero" ></div>
