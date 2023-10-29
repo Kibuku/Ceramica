@@ -8,8 +8,19 @@
     z-index: 1;
 }*/
 .home-hero {
-    height: 800px;
-    background: linear-gradient(90deg, #0101024D 0%, #010101 64%), url("/images/5.jpg");
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background:  linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/5.jpg") ;
     background-position: 0%;
     background-size: contain;
 }
+.home-container {
+    display: flex;
+    align-items:center;
+    width: 900px;
+    height: 150px;
+    position: relative;
+  }
