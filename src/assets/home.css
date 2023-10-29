@@ -13,34 +13,41 @@
     left: 0px;
     width: 1920px;
     height: 1080px;
-    background:  linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/5.jpg") ;
+    background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/5.jpg");
     background-position: 0%;
     background-size: contain;
 }
+
 .home-container1 {
     display: flex;
-    padding-top: 300px;
-    padding-left: 500px;
-  
-    align-items:center;
-    width: 1100px;
-    height: 100px;
+    /*padding-top: 300px;*/
+    /*padding-left: 500px;*/
+
+    align-items: end;
+    width: 40%;
+    /*height: 100px;*/
     position: relative;
-  }
-  .home-container2 {
+}
+
+.home-container2 {
     display: flex;
     padding-top: 150px;
     padding-left: 500px;
-    align-items:center;
+    align-items: center;
     width: 1100px;
     height: 100px;
     position: relative;
-  }
-  .home-border{
+}
+
+.home-border {
     padding: 10px;
     width: 5px;
     height: 102px;
-    border: 2px solid #CCBAAA;
-    opacity: 1;
-  }
+    /*border: 2px solid #CCBAAA;*/
+    border-top: 2px solid #CCBAAA ;
+    border-left: 2px solid #CCBAAA ;
+    border-right: 2px solid #CCBAAA ;
+    border-radius: 15px;
 
+    opacity: 1;
+}

@@ -56,7 +56,7 @@ const NavBar: Component = () => {
             <header class="site-navbar mt-3">
                 <div class="container-fluid">
                     <div class="row align-items-center">
-                        {/*<div class="site-logo col-6 text-black"><a href="index.html">Brand</a></div>*/}
+
                         <div class="site-logo col-6 text-black"><A href="/"><img src="images/7.png" alt="ceramica"
                                                                                  style="width:100px; height:100px"/></A>
                         </div>
