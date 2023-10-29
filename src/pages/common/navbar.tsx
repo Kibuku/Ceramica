@@ -3,6 +3,7 @@ import {A} from "@solidjs/router";
 import {createSignal} from "solid-js";
 import {Button, Modal} from "solid-bootstrap";
 import "../../assets/navbar.css";
+import {setShowModalBackDrop} from "../../store";
 
 const NavBar: Component = () => {
 
@@ -71,6 +72,7 @@ const NavBar: Component = () => {
                                 <li><A href="" onClick={(e) => {
                                     e.preventDefault();
                                     handleOpen()
+                                    setShowModalBackDrop(true)
                                 }}>
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -89,7 +91,10 @@ const NavBar: Component = () => {
             </header>
 
             <Modal size="lg" contentClass="modal-back-color" backdropClass="modal-backdrop" show={show()}
-                   onHide={handleClose}>
+                   onHide={()=>{
+                       handleClose();
+                       setShowModalBackDrop(false)
+                   }}>
 
                 <Modal.Body class="modal-back-color">
                     {

@@ -3,12 +3,14 @@ import type {Component} from 'solid-js';
 import '../../assets/home.css';
 
 import {A, useNavigate} from "@solidjs/router";
+import {showModalBackDrop} from "../../store";
 
 const Home: Component = () => {
     const navigate = useNavigate();
     return (
         <div>
-            {/*<NavBar/>*/}
+            <div class={showModalBackDrop() ? "modal-backdrop" : ""} />
+
             <header class="site-navbar mt-3">
                 <div class="container-fluid">
                     <div class="row align-items-center">
