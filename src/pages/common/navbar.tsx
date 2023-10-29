@@ -1,7 +1,12 @@
 import type {Component} from 'solid-js';
 import {A} from "@solidjs/router";
+import {createSignal} from "solid-js";
 
 const NavBar: Component = () => {
+    const [show, setShow] = createSignal(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    // @ts-ignore
     return (
         <div >
             <header class="site-navbar mt-3">
@@ -28,6 +33,10 @@ const NavBar: Component = () => {
                     </div>
                 </div>
             </header>
+
+
+
+
         </div>
     );
 };
