@@ -14,6 +14,4 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() =>   <Router> {/* 👈 Wrap the router around the app */}
-  <App />
-</Router>, root!);
+render(() => <App />, root!);
