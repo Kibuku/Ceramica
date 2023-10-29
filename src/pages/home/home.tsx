@@ -18,8 +18,8 @@ const Home: Component = () => {
                                 <div class="col-lg-4 text-white h3 text-uppercase py-2 home-border">CLASSES</div>
                             </div>
                             <div class="home-container2">
-                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border">ABOUT US</div>
-                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border" >CONTACT US</div>
+                                <div class="col-lg-4 text-white h3 text-uppercase py-4 home-border">ABOUT US</div>
+                                <div class="col-lg-4 text-white h3 text-uppercase py-4 home-border" >CONTACT US</div>
                                 
                             </div>
                         </div>
