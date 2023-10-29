@@ -29,25 +29,24 @@ const Home: Component = () => {
 
                         <div class="row home-container1 ">
                             <div
-                                class=" col-lg-5 text-white h3 text-uppercase home-border  rounded-3 d-flex align-items-center justify-content-center" onClick={(e)=>{
+                                class=" col-lg-5 text-brown h2 py-4 home-border d-flex align-items-center justify-content-center" onClick={(e)=>{
                                     e.preventDefault();
                                     navigate("/shop");
                             }}>SHOP
                             </div>
                             <div class="col-lg-1 mx-1"></div>
-                            <div class="col-lg-5 text-white h3 text-uppercase py-2 home-border d-flex align-items-center justify-content-center" onClick={(e)=>{
+                            <div class="col-lg-5 text-brown h2 py-4 home-border text-center d-flex align-items-center justify-content-center" onClick={(e)=>{
                                 navigate("/classes");
                             }}>CLASSES</div>
 
-                            <div class="col-lg-12 my-3"></div>
-                            <div class="col-lg-5 text-white h4 text-uppercase py-4 home-border d-flex align-items-center justify-content-center"  onClick={(e)=>{
-                                navigate("/about_us");
-                            }}>ABOUT US</div>
-                            <div class="col-lg-1 mx-1"></div>
-                            <div class="col-lg-5 text-white h4 text-uppercase py-4 home-border d-flex align-items-center justify-content-center"  onClick={(e)=>{
-                                navigate("/contact_us");
-                            }}>CONTACT US</div>
-                        </div>
+<div class="col-lg-12 my-3"></div>
+                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border">ABOUT US</div>
+                                  <div class="col-lg-1 mx-1"></div>
+                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border" >CONTACT US</div>
+                              </div>
+                                
+
+
                     </div>
                 </div>
             </div>
