@@ -64,7 +64,7 @@ const NavBar: Component = () => {
                         <nav class="mx-auto site-navigation">
                             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
                                 <li><A href="/" class="nav-link active">Home</A></li>
-                                <li><A href="shop">Shop</A></li>
+                                <li><A href="/shop">Shop</A></li>
                                 <li><A href="/classes">Classes</A></li>
                                 <li><A href="/about_us">About Us</A></li>
                                 <li><A href="/contact_us">Contact Us</A></li>

@@ -25,14 +25,14 @@ const Home: Component = () => {
 
 
                               <div class="row home-container1 " >
-                                  <div  class=" col-lg-5 text-white h3 text-uppercase home-border  rounded-3 text-center">SHOP</div>
+                                  <div  class=" col-lg-5 text-brown h2 py-4 home-border text-center">SHOP</div>
                                   <div class="col-lg-1 mx-1"></div>
-                                  <div class="col-lg-5 text-white h3 text-uppercase py-2 home-border">CLASSES</div>
+                                  <div class="col-lg-5 text-brown h2 py-4 home-border text-center">CLASSES</div>
 
-<div class="col-lg-12 my-3"></div>
-                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border">ABOUT US</div>
+                    <div class="col-lg-12 my-3"></div>
+                                  <div class="col-lg-5 text-brown h3 py-4 home-border text-centre">ABOUT US</div>
                                   <div class="col-lg-1 mx-1"></div>
-                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border" >CONTACT US</div>
+                                  <div class="col-lg-5 text-brown h3 py-4 home-border text centre" >CONTACT US</div>
                               </div>
                                 
 
