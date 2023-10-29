@@ -14,8 +14,6 @@ const App: Component = () => {
   return (
       <Router>
         <Routes>
-          {/*<Route  path="/cart_payment" component={CartPayment} />*/}
-          {/*<Route path="/cart" component={Cart} />*/}
           <Route path="/contact_us" component={ContactUs} />
           <Route path="/about_us" component={AboutUs} />
           <Route path="/classes" component={Classes} />

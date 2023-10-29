@@ -2,6 +2,7 @@ import type {Component} from 'solid-js';
 import {A} from "@solidjs/router";
 import {createSignal} from "solid-js";
 import {Button, Modal} from "solid-bootstrap";
+import "../../assets/navbar.css";
 
 const NavBar: Component = () => {
 
@@ -10,7 +11,45 @@ const NavBar: Component = () => {
     const handleOpen = () => setShow(true);
     const handleClose = () => setShow(false);
 
+    const cartDetails = () => {
+        return <div>
+        <div  onClick={(e)=>{
+            e.preventDefault();
+            setShow(false);
+        }}  class="float-right">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                <path style="fill:white" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+        </div>
+        </div>
+    }
+    const checkOutDetails = () => {
+        return <div>
+            <div onClick={(e)=>{
+                e.preventDefault();
+                setShowCheckOut(false);
+            }} class="float-right">
 
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                    <path style="fill:white"
+                          d="M380.6 81.7c7.9 15.8 1.5 35-14.3 42.9L103.6 256 366.3 387.4c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3l-320-160C6.8 279.2 0 268.1 0 256s6.8-23.2 17.7-28.6l320-160c15.8-7.9 35-1.5 42.9 14.3z"/>
+                </svg>
+
+            </div>
+            <br/>
+            <br/>
+            <div class="row mt-5">
+                <div class="col-lg-6 text-white"><h2>Grand total</h2></div>
+                <div class="col-lg-6 text-white"><h2>$111.5</h2></div>
+            </div>
+            <h4 class="text-white my-5">Complete payment via :</h4>
+            <div class="row ml-5">
+                <div class="col-lg-3 text-uppercase text-white"><h2>mpesa</h2></div>
+                <div class="col-lg-3 text-uppercase text-white"><h2>card</h2></div>
+                <div class="col-lg-3 text-uppercase text-white"><h2>cash</h2></div>
+            </div>
+            <div class="my-4"/>
+        </div>
+    }
     // @ts-ignore
     return (
         <div>
@@ -49,31 +88,36 @@ const NavBar: Component = () => {
                 </div>
             </header>
 
-            <Modal show={show()} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
+            <Modal size="lg" contentClass="modal-back-color" backdropClass="modal-backdrop" show={show()}
+                   onHide={handleClose}>
+
+                <Modal.Body class="modal-back-color">
                     {
                         showCheckOut() ?
 
-                            <p>Checkout page</p>
+                            checkOutDetails()
                             :
-                            <p>Order details</p>
+                            cartDetails()
                     }
-                    Woohoo, you're reading this text in a modal!
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>Close</Button>
 
-                    {showCheckOut() ? <></> :  <Button variant="primary" onClick={(e) => {
-                        if (showCheckOut()) {
-                            handleClose()
-                        } else {
-                            setShowCheckOut(true);
-                        }
-                    }}> Checkout</Button>}
-                </Modal.Footer>
+                </Modal.Body>
+                {
+                    showCheckOut() ? <></> :
+                        <Modal.Footer class="modal-back-color">
+                            <Button variant="secondary" class="modal-back-color" onClick={handleClose}>Change
+                                order</Button>
+
+
+                            {showCheckOut() ? <></> :
+                                <Button style="color:#87674F" class="bg-white  border-0" onClick={(e) => {
+                                    if (showCheckOut()) {
+                                        handleClose()
+                                    } else {
+                                        setShowCheckOut(true);
+                                    }
+                                }}> Checkout</Button>}
+                        </Modal.Footer>
+                }
             </Modal>
 
 

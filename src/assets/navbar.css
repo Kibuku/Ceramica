@@ -1,0 +1,17 @@
+.modal-back-color{
+    background-color: #87674F;
+}
+
+.text-brown{
+    color: #87674F;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(77, 55, 41,0.4);
+    z-index: 1;
+}
