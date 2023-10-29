@@ -4,7 +4,7 @@ import "../../assets/contact_us.css";
 
 const ContactUs: Component = () => {
     return (
-        <div class="backdrop-contact">
+        <div class="contact-backdrop-contact">
             <NavBar/>
 
             <div class="container h-100">

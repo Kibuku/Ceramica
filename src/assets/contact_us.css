@@ -1,4 +1,4 @@
-.backdrop-contact {
+.contact-backdrop-contact {
     position: fixed;
     top: 0;
     right: 0;
@@ -7,7 +7,7 @@
     background-color: rgba(16, 21, 44,1);
     z-index: 1;
 }
-.inputStyle{
+.contact-inputStyle{
     background-color: rgba(16, 21, 44,1);
     color: #fff;
     border: 1px solid #333;

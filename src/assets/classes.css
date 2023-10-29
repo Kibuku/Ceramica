@@ -1,4 +1,4 @@
-.backdrop {
+.classes-backdrop {
     position: fixed;
     top: 0;
     right: 0;
@@ -7,14 +7,14 @@
     background-color: rgba(77, 55, 41,0.4);
     z-index: 1;
 }
-.page-container{
+.classes-page-container{
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent scrolling */
 }
-.hero {
+.classes-hero {
     position: fixed; /* Fixed positioning */
     top: 0;
     left: 0;
@@ -24,7 +24,7 @@
     background-size: cover;
     background-position: center;
 }
-.place-me{
+.classes-place-me{
     position: absolute;
 
 }

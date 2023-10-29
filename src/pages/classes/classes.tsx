@@ -4,11 +4,11 @@ import "../../assets/classes.css";
 
 const Classes: Component = () => {
     return (
-        <div  class="page-container" >
+        <div  class="classes-page-container" >
             <NavBar/>
 
-            <div  class="hero" ></div>
-            <div  class="backdrop">
+            <div  class="classes-hero" ></div>
+            <div  class="classes-backdrop">
 
                 <div  class="container h-100">
                     <div  class="row h-100 w-100 ">

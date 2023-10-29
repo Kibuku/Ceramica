@@ -1,4 +1,4 @@
-.backdrop {
+/*.home-backdrop {
     position: fixed;
     top: 0;
     right: 0;
@@ -6,14 +6,10 @@
     left: 0;
     background: transparent linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box;
     z-index: 1;
-}
-.hero {
-    position: fixed; /* Fixed positioning */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('images/5.jpg');
-    background-size: cover;
-    background-position: center;
+}*/
+.home-hero {
+    height: 800px;
+    background: linear-gradient(90deg, #0101024D 0%, #010101 64%), url("/images/5.jpg");
+    background-position: 0%;
+    background-size: contain;
 }
