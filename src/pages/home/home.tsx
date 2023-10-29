@@ -6,7 +6,7 @@ const Home: Component = () => {
     return (
         <div  >
         <NavBar/>
-        <div  class="hero2" >
+        <div  class="hero" >
             <div>
                 <div class="container h-100">
                     <div class="row h-100">
