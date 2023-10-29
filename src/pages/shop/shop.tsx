@@ -10,17 +10,24 @@ const Shop: Component = () => {
             <div class={showModalBackDrop() ? "modal-backdrop" : ""} />
             <div class="shop-hero" ></div>
             <div class="shop-backdrop">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="container h-100" >
+                    <div class="h-100 w-100 d-flex justify-content-center align-items-center ">
+                        
+                        <div class="container-fluid d-flex justify-content-center">
+                            <div class="  row home-container2  ">
+                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Crockery</div>
+                                 <div class="col-lg-1 mx-1"></div> 
+                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Deco</div>
+                                 <div class="col-lg-1 mx-1"></div> 
+                                {/* <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Tiles</div>  */}
 
-                            <div class="row">
-                                <div class="col-lg-4 text-white h2 text-uppercase  py-2 border-1">Crockery</div>
-                                <div class="col-lg-4 text-white h2 text-uppercase py-2">Deco</div>
-                                <div class="col-lg-4 text-white h2 text-uppercase py-2">Tiles</div>
-                                <div class="col-lg-4 text-white h2 text-uppercase " >Clay</div>
-                                <div class="col-lg-4 text-white h2 text-uppercase ">Customs</div>
-                                <div class="col-lg-4 text-white h2 text-uppercase ">Curios</div>
+                                <div class="col-lg-12 my-3"></div>
+
+                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center " >Clay</div>
+                                 <div class="col-lg-1 mx-1"></div> 
+                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Customs</div>
+                                 <div class="col-lg-1 mx-1"></div> 
+                                {/* <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Curios</div> */}
                             </div>
                         </div>
                     </div>

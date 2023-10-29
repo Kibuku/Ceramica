@@ -11,8 +11,8 @@ const AboutUs: Component = () => {
             <div class="container h-100">
 
                 <div class="h-100 w-100 d-flex justify-content-center align-items-center">
-                    <div class="row">
-                        <div class="text-white col-12 my-5">
+                    <div class="row ">
+                        <div class=" h6 text-white col-12 my-5">
                             Ceramica is a premier ceramics studio located in the heart of Kenya, dedicated to the art of
                             crafting exquisite, tailor-made ceramics.
                             With a commitment to craftsmanship and creativity, we blend traditional techniques with
@@ -24,9 +24,11 @@ const AboutUs: Component = () => {
                             we transform clay into personalized works of art that elevate any space or occasion.
                         </div>
 
-                        <div class="col-lg-4 text-uppercase text-white">Artists</div>
-                        <div class="col-lg-4 text-uppercase text-white">Partners</div>
-                        <div class="col-lg-4 text-uppercase text-white">Testimonial</div>
+                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Artists</div>
+                        <div class="col-lg-1 mx-1"></div>
+                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Partners</div>
+                        <div class="col-lg-1 mx-1"></div>
+                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Testimonial</div>
                     </div>
 
 
