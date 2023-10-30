@@ -15,20 +15,19 @@ const Home: Component = () => {
                 <div class="container-fluid">
                     <div class="row align-items-center">
 
-                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/7.png" alt="ceramica"
+                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/8.png" alt="ceramica"
                                                                                  style="width:100px; height:100px"/></A>
                         </div>
                     </div>
                 </div>
             </header>
+            
             <div class="home-hero">
             
-
-                <div class="container h-100 ">
-                
-                    <div class="h-100  w-100 d-flex justify-content-end align-items-center ">
+                <div class="container">
+                <A href="/"><img src="images/9.png" alt="ceramica" style=" width:200px; height:auto"/></A>
+                    <div class="  w-100 d-flex justify-content-end align-items-center ">
                     
-
 
                         <div class="row home-container1 ">
                             <div
