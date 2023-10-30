@@ -1,5 +1,6 @@
 .modal-back-color{
-    background-color: #87674F;
+    background-color: black;
+    opacity: 90%;
 }
 
 .modal-parent{
@@ -9,8 +10,8 @@
     color: #87674F;
 }
 .preview-box{
-    height: 140px;
-    width: 140px;
+    height: auto;
+    width: auto;
 }
 .modal-backdrop {
     position: fixed;
@@ -37,4 +38,8 @@
     margin-right: 10px;
     cursor:default;
     opacity: 1;
+}
+.check-out-item-border:hover{
+    background-color: #CCBAAA;
+
 }

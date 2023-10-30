@@ -13,9 +13,9 @@
     left: 0px;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/5.jpg");
+    background: linear-gradient(90deg, #0101024D 0%, #010101 64%) 0% 0% no-repeat padding-box, url("/images/46.jpg");
     background-position: 0%;
-    /*background-size: fit;*/
+    background-size: cover;
 }
 
 
