@@ -15,42 +15,54 @@ const Home: Component = () => {
                 <div class="container-fluid">
                     <div class="row align-items-center">
 
-                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/8.png" alt="ceramica"
-                                                                                 style="width:100px; height:100px"/></A>
+                        <div class="site-logo col-6 text-black">
+                            <A href="/">
+                                <img src="images/logo_text.png" alt="ceramica"
+                                     style="width:300px; height:300px ; margin-top:80%"/>
+                            </A>
                         </div>
                     </div>
                 </div>
             </header>
-            
-            <div class="home-hero">
-            
-                <div class="container">
-                <A href="/"><img src="images/9.png" alt="ceramica" style=" width:200px; height:auto"/></A>
-                    <div class="  w-100 d-flex justify-content-end align-items-center ">
-                    
+            <div class="home-hero ">
 
-                        <div class="row home-container1 ">
+
+                <div class=" h-100  align-self-end   ">
+
+                    <div class="h-100  w-100 d-flex justify-content-end align-items-center ">
+
+
+                        <div class="row home-container1 w-50 justify-content-center" >
                             <div
-                                class=" col-lg-5 text-brown h2 py-4 home-border d-flex align-items-center justify-content-center" onClick={(e)=>{
+                                class=" col-lg-5 text-brown h2 py-4 home-border d-flex align-items-center justify-content-center"
+                                onClick={(e) => {
                                     e.preventDefault();
                                     navigate("/shop");
-                            }}>SHOP
+                                }}>SHOP
                             </div>
-                         <div class="col-lg-1 mx-1"></div>
-                            <div class="col-lg-5 text-brown h2 py-4 home-border text-center d-flex align-items-center justify-content-center" onClick={(e)=>{
-                                navigate("/classes");
-                            }}>CLASSES</div>
+                            <div class="col-lg-1 mx-1"></div>
+                            <div
+                                class="col-lg-5 text-brown h2 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                onClick={(e) => {
+                                    navigate("/classes");
+                                }}>CLASSES
+                            </div>
 
-                        <div class="col-lg-12 my-3"></div>
-                                  <div class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"  onClick={(e)=>{
-                                navigate("/about_us");
-                            }}>ABOUT US</div>
-                                  <div class="col-lg-1 mx-1"></div>
-                                  <div class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center" onClick={(e)=>{
-                                navigate("/contact_us");
-                            }} >CONTACT US</div>
+                            <div class="col-lg-12 my-3"></div>
+                            <div
+                                class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                onClick={(e) => {
+                                    navigate("/about_us");
+                                }}>ABOUT US
+                            </div>
+                            <div class="col-lg-1 mx-1"></div>
+                            <div
+                                class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                onClick={(e) => {
+                                    navigate("/contact_us");
+                                }}>CONTACT US
+                            </div>
                         </div>
-                                
 
 
                     </div>
