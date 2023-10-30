@@ -25,8 +25,9 @@ const Home: Component = () => {
             
 
                 <div class="container h-100 ">
-                    
+                
                     <div class="h-100  w-100 d-flex justify-content-end align-items-center ">
+                    
 
 
                         <div class="row home-container1 ">

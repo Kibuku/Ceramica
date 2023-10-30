@@ -121,12 +121,12 @@ const NavBar: Component = () => {
     // @ts-ignore
     return (
         <div>
-            <header class="site-navbar mt-3">
+            <header class="site-navbar mt-4">
                 <div class="container-fluid">
                     <div class="row align-items-center">
 
-                        <div class="site-logo col-6 text-black"><A href="/"><img src="images/7.png" alt="ceramica"
-                                                                                 style="width:100px; height:100px"/></A>
+                        <div class="site-logo col-8 text-black"><A href="/"><img src="images/8.png" alt="ceramica"
+                                                                                 style="width:200px; height:200px"/></A>
                         </div>
 
                         <nav class="mx-auto site-navigation">
