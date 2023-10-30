@@ -46,8 +46,8 @@
 
 .home-border {
     padding: 10px;
-    width: 5px;
-    height: 102px;
+    /*width: 5px;*/
+    /*height: 102px;*/
     border-color:  #CCBAAA;
     border-top: 2px solid #CCBAAA ;
     border-left: 2px solid #CCBAAA ;

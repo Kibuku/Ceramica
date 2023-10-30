@@ -125,37 +125,77 @@ const NavBar: Component = () => {
                 <div class="container-fluid">
                     <div class="row align-items-center">
 
-                        <div class="site-logo col-8 text-black"><A href="/"><img src="images/8.png" alt="ceramica"
-                                                                                 style="width:200px; height:200px"/></A>
+                        <div class="site-logo col-8 text-black">
+                            <a href="/"><img src="images/8.png" alt="ceramica" style="width:200px; height:200px" /></a>
                         </div>
 
-                        <nav class="mx-auto site-navigation">
+                        {/*// <!-- Mobile Toggle Button -->*/}
+                        <button class="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        {/*// <!-- Navbar Items -->*/}
+                        <nav class="mx-auto site-navigation col-xl-4">
                             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-                                <li><A href="/" class="nav-link active">Home</A></li>
-                                <li><A href="/shop">Shop</A></li>
-                                <li><A href="/classes">Classes</A></li>
-                                <li><A href="/about_us">About Us</A></li>
-                                <li><A href="/contact_us">Contact Us</A></li>
-                                <li><A href="" onClick={(e) => {
-                                    e.preventDefault();
-                                    handleOpen()
-                                    setShowModalBackDrop(true)
-                                }}>
-
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                         class="bi bi-cart" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                                    </svg>
-                                </A></li>
-
-
+                                <li><a href="/" class="nav-link active">Home</a></li>
+                                <li><a href="/shop">Shop</a></li>
+                                <li><a href="/classes">Classes</a></li>
+                                <li><a href="/about_us">About Us</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
+                                <li>
+                                    <a href="" onClick={(e) => {
+                                        e.preventDefault();
+                                        handleOpen()
+                                        setShowModalBackDrop(true)
+                                    }}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                             class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
 
+                        {/*// <!-- Collapsible Mobile Navbar -->*/}
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/shop">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/classes">Classes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about_us">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contact_us">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link" onClick={(e) => {
+                                        e.preventDefault();
+                                        handleOpen();
+                                        setShowModalBackDrop(true);
+                                    }}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                             class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </header>
+
 
             {/*backdropClass="modal-backdrop"*/}
             <Modal size="lg" contentClass="modal-back-color modal-parent "    centered show={show()}
