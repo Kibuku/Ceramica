@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504c36d7-9213-46d0-b828-e5b1c152cf5a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/321532e5356dcbc30e037b8235f44e39f70f1d3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/321532e5356dcbc30e037b8235f44e39f70f1d3f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a29c35e626760e6161d74236cddda362d5480ed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a29c35e626760e6161d74236cddda362d5480ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/common/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/common/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/aboutUs/aboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/aboutUs/aboutUs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/classes/classes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/classes/classes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +82,8 @@
       <workItem from="1698579193304" duration="295000" />
       <workItem from="1698579540830" duration="4777000" />
       <workItem from="1698607663382" duration="602000" />
+      <workItem from="1698652836965" duration="4072000" />
+      <workItem from="1698686640907" duration="608000" />
     </task>
     <servers />
   </component>

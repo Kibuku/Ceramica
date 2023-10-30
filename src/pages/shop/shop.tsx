@@ -13,21 +13,21 @@ const Shop: Component = () => {
                 <div class="container h-100" >
                     <div class="h-100 w-100 d-flex justify-content-center align-items-center ">
                         
-                        <div class="container-fluid d-flex justify-content-center  row w-50">
+                        <div class="container-fluid d-flex justify-content-center  row w-75">
 
-                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Crockery</div>
-                                 <div class="col-lg-1 mx-1"></div> 
-                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Deco</div>
-                                 <div class="col-lg-1 mx-1"></div> 
-                                {/* <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Tiles</div>  */}
+                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Crockery</div>
+                                 <div class="col-lg-1 mx-1"></div>
+                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center px-5 ">Deco</div>
+                                 <div class="col-lg-1 mx-1"></div>
+                                 <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Tiles</div>
 
                                 <div class="col-lg-12 my-3"></div>
 
-                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center " >Clay</div>
+                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center " >Clay</div>
                                  <div class="col-lg-1 mx-1"></div> 
-                                <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Customs</div>
+                                <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Customs</div>
                                  <div class="col-lg-1 mx-1"></div> 
-                                {/* <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Curios</div> */}
+                                 <div class="col-lg-3 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Curios</div>
 
                         </div>
                     </div>

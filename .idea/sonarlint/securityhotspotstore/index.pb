@@ -11,3 +11,5 @@ K
 src/pages/common/navbar.tsx,3/2/321532e5356dcbc30e037b8235f44e39f70f1d3f
 E
 src/assets/navbar.css,1/e/1ee61e40178213652125d20197687ff6e4b6292d
+C
+src/assets/shop.css,9/3/93bce3fa4afa7ff4767b926505ada1f6fbbc85f7
