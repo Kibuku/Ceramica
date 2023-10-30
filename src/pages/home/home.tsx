@@ -22,8 +22,10 @@ const Home: Component = () => {
                 </div>
             </header>
             <div class="home-hero">
+            
 
                 <div class="container h-100 ">
+                    
                     <div class="h-100  w-100 d-flex justify-content-end align-items-center ">
 
 
@@ -34,16 +36,20 @@ const Home: Component = () => {
                                     navigate("/shop");
                             }}>SHOP
                             </div>
-                            <div class="col-lg-1 mx-1"></div>
+                         <div class="col-lg-1 mx-1"></div>
                             <div class="col-lg-5 text-brown h2 py-4 home-border text-center d-flex align-items-center justify-content-center" onClick={(e)=>{
                                 navigate("/classes");
                             }}>CLASSES</div>
 
-<div class="col-lg-12 my-3"></div>
-                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border">ABOUT US</div>
+                        <div class="col-lg-12 my-3"></div>
+                                  <div class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"  onClick={(e)=>{
+                                navigate("/about_us");
+                            }}>ABOUT US</div>
                                   <div class="col-lg-1 mx-1"></div>
-                                  <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border" >CONTACT US</div>
-                              </div>
+                                  <div class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center" onClick={(e)=>{
+                                navigate("/contact_us");
+                            }} >CONTACT US</div>
+                        </div>
                                 
 
 

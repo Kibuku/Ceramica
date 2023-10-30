@@ -18,6 +18,7 @@
     background-size: fit;
 }
 
+
 .home-container1 {
     display: flex;
     /*padding-top: 300px;*/
@@ -32,23 +33,30 @@
 
 .home-container2 {
     display: flex;
-    padding-top: 150px;
-    padding-left: 500px;
+   
     align-items: center;
-    width: 1100px;
-    height: 100px;
-    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    /* align-items: center; */
+     position: relative;
+      
 }
 
 .home-border {
     padding: 10px;
     width: 5px;
     height: 102px;
-    /*border: 2px solid #CCBAAA;*/
+    border-color: 2px solid #CCBAAA;
     border-top: 2px solid #CCBAAA ;
     border-left: 2px solid #CCBAAA ;
     border-right: 2px solid #CCBAAA ;
     border-radius: 15px;
-
+    cursor:default;
     opacity: 1;
+}
+.home-border:hover{
+    background-color: #CCBAAA;
+
 }
