@@ -23,3 +23,18 @@
     width: 100vw;
     height: 100vh;
 }
+
+.check-out-item-border {
+    padding: 10px;
+    /*width: 5px;*/
+    /*height: 90px;*/
+    border-color:  #CCBAAA;
+    border-top: 2px solid #CCBAAA ;
+    border-left: 2px solid #CCBAAA ;
+    border-right: 2px solid #CCBAAA ;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor:default;
+    opacity: 1;
+}
