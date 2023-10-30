@@ -111,9 +111,9 @@ const NavBar: Component = () => {
             </div>
             <h4 class="text-white my-5">Complete payment via :</h4>
             <div class="row ml-5">
-                <div class="col-lg-3 check-out-item-border text-uppercase text-white text-center justify-content-center align-content-center"><h2>mpesa</h2></div>
-                <div class="col-lg-3 check-out-item-border text-uppercase text-white text-center  justify-content-center align-content-center"><h2>card</h2></div>
-                <div class="col-lg-3 check-out-item-border text-uppercase text-white text-center justify-content-center align-content-center"><h2>cash</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2>mpesa</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center  justify-content-center align-content-center"><h2>card</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2>cash</h2></div>
             </div>
             <div class="my-4"/>
         </div>
@@ -136,7 +136,7 @@ const NavBar: Component = () => {
                         </button>
 
                         {/*// <!-- Navbar Items -->*/}
-                        <nav class="mx-auto site-navigation col-xl-4">
+                        <nav class="mx-auto site-navigation col-xl-6">
                             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
                                 <li><a href="/" class="nav-link active">Home</a></li>
                                 <li><a href="/shop">Shop</a></li>

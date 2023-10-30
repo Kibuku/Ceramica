@@ -20,7 +20,7 @@ const ContactUs: Component = () => {
                                 <label for="exampleFormControlTextarea1"  class="form-label">Message</label>
                                 <textarea class="form-control inputStyle" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <span class="border-bottom">Send</span>
+                            <span class="contact-border">Send</span>
                         </div>
                         <div  class="col-6 order-2">
                             <div   class="float-right">
