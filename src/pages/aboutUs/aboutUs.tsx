@@ -24,11 +24,11 @@ const AboutUs: Component = () => {
                             we transform clay into personalized works of art that elevate any space or occasion.
                         </div>
 
-                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Artists</div>
+                        <div class="col-lg-3 h5 text-uppercase text-white py-4 home-border d-flex justify-content-center align-items-center">Artists</div>
                         <div class="col-lg-1 mx-1"></div>
-                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Partners</div>
+                        <div class="col-lg-3 h5 text-uppercase text-white py-4 home-border d-flex justify-content-center align-items-center">Partners</div>
                         <div class="col-lg-1 mx-1"></div>
-                        <div class="col-lg-3 h5 text-uppercase text-white home-border d-flex justify-content-center align-items-center">Testimonial</div>
+                        <div class="col-lg-3 h5 text-uppercase text-white py-4 home-border d-flex justify-content-center align-items-center">Testimonial</div>
                     </div>
 
 

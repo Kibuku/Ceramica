@@ -18,7 +18,7 @@ const Home: Component = () => {
                         <div class="site-logo col-6 text-black">
                             <A href="/">
                                 <img src="images/logo_text.png" alt="ceramica"
-                                     style="width:300px; height:300px ; margin-top:80%"/>
+                                     style="width:500px; height:500px ; margin-top:80%"/>
                             </A>
                         </div>
                     </div>
@@ -27,12 +27,12 @@ const Home: Component = () => {
             <div class="home-hero ">
 
 
-                <div class=" h-100  align-self-end   ">
+                <div class=" h-100  align-self-end ">
 
-                    <div class="h-100  w-100 d-flex justify-content-end align-items-center ">
+                    <div class="h-100  w-100 d-flex justify-content-end align-items-center  ">
 
 
-                        <div class="row home-container1 w-50 justify-content-center" >
+                        <div class="row home-container1 w-40 justify-content-center" style = "margin-right:5%" >
                             <div
                                 class=" col-lg-5 text-brown h2 py-4 home-border d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
@@ -48,7 +48,7 @@ const Home: Component = () => {
                                 }}>CLASSES
                             </div>
 
-                            <div class="col-lg-12 my-3"></div>
+                            <div class="col-lg-12 my-4"></div>
                             <div
                                 class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {

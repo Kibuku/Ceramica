@@ -16,11 +16,11 @@ const Classes: Component = () => {
 
                     <div class="d-flex justify-content-center align-items-center w-100  h-100">
                         <div
-                            class="col-lg-4 text-white h3 text-uppercase py-2 home-border d-flex justify-content-center align-items-center">On-Going
+                            class="col-lg-4 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center">On-Going
                         </div>
                         <div class="col-lg-1 mx-1"></div>
                         <div
-                            class="col-lg-4 text-white h3 text-uppercase py-2 home-border d-flex justify-content-center align-items-center">New
+                            class="col-lg-4 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center">New
                         </div>
                     </div>
 
