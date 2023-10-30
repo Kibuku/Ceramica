@@ -7,6 +7,7 @@ import {setShowModalBackDrop} from "../../store";
 
 const NavBar: Component = () => {
 
+    const [cartCount, setCartCount] = createSignal(1);
     const [showCheckOut, setShowCheckOut] = createSignal(false);
     const [show, setShow] = createSignal(false);
     const handleOpen = () => setShow(true);
@@ -14,18 +15,65 @@ const NavBar: Component = () => {
 
     const cartDetails = () => {
         return <div>
-        <div  onClick={(e)=>{
-            e.preventDefault();
-            setShow(false);
-        }}  class="float-right">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
-                <path style="fill:white" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
-        </div>
+            <div onClick={(e) => {
+                e.preventDefault();
+                setShow(false);
+            }} class="float-right">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                    <path style="fill:white"
+                          d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-6 bg-danger preview-box">here</div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-12 my-1 text-white d-flex justify-content-center align-items-center">
+                            10-inch plate
+                        </div>
+
+                        <div class="col-lg-12   my-2 row d-flex justify-content-center align-items-center">
+                            <div class="col-lg-1 bg-white">-</div>
+                            <div class="col-lg-2 bg-white d-flex justify-content-center align-items-center">{cartCount()}</div>
+                            <div class="col-lg-1 bg-white">+</div>
+                        </div>
+
+                        <div class="col-lg-12  my-1 d-flex justify-content-center align-items-center ">
+                            view other items
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">Cart Total</div>
+                        <div class="col-lg-6"> %1000.00</div>
+                        <div class="col-lg-12 my-1"/>
+
+                        <div class="col-lg-6">Tax</div>
+                        <div class="col-lg-6"> %16.5</div>
+                        <div class="col-lg-12 my-1"/>
+
+                        <div class="col-lg-6">Delivery</div>
+                        <div class="col-lg-6"> %5</div>
+                        <div class="col-lg-12 my-1"/>
+
+                        <div class="col-lg-6">Discount</div>
+                        <div class="col-lg-6"> -%10</div>
+
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-5 border-bottom  my-2"></div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     }
     const checkOutDetails = () => {
         return <div>
-            <div onClick={(e)=>{
+            <div onClick={(e) => {
                 e.preventDefault();
                 setShowCheckOut(false);
             }} class="float-right">
@@ -34,6 +82,8 @@ const NavBar: Component = () => {
                     <path style="fill:white"
                           d="M380.6 81.7c7.9 15.8 1.5 35-14.3 42.9L103.6 256 366.3 387.4c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3l-320-160C6.8 279.2 0 268.1 0 256s6.8-23.2 17.7-28.6l320-160c15.8-7.9 35-1.5 42.9 14.3z"/>
                 </svg>
+
+               
 
             </div>
             <br/>
@@ -90,8 +140,8 @@ const NavBar: Component = () => {
                 </div>
             </header>
 
-            <Modal size="lg" contentClass="modal-back-color" backdropClass="modal-backdrop" show={show()}
-                   onHide={()=>{
+            <Modal size="lg" contentClass="modal-back-color modal-parent "  backdropClass="modal-backdrop" show={show()}
+                   onHide={() => {
                        handleClose();
                        setShowModalBackDrop(false)
                    }}>
@@ -105,24 +155,25 @@ const NavBar: Component = () => {
                             cartDetails()
                     }
 
+                    {
+                        showCheckOut() ? <></> :
+                            <div class="float-right">
+                                <Button variant="secondary" class="modal-back-color" onClick={handleClose}>Change
+                                    order</Button>
+
+                                &nbsp;
+                                &nbsp;
+                                {showCheckOut() ? <></> :
+                                    <Button style="color:#87674F" class="bg-white  border-0" onClick={(e) => {
+                                        if (showCheckOut()) {
+                                            handleClose()
+                                        } else {
+                                            setShowCheckOut(true);
+                                        }
+                                    }}> Checkout</Button>}
+                            </div>
+                    }
                 </Modal.Body>
-                {
-                    showCheckOut() ? <></> :
-                        <Modal.Footer class="modal-back-color">
-                            <Button variant="secondary" class="modal-back-color" onClick={handleClose}>Change
-                                order</Button>
-
-
-                            {showCheckOut() ? <></> :
-                                <Button style="color:#87674F" class="bg-white  border-0" onClick={(e) => {
-                                    if (showCheckOut()) {
-                                        handleClose()
-                                    } else {
-                                        setShowCheckOut(true);
-                                    }
-                                }}> Checkout</Button>}
-                        </Modal.Footer>
-                }
             </Modal>
 
 

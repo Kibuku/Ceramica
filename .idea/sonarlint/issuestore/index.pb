@@ -7,3 +7,7 @@ G
 src/App.tsx,8/3/835da56f32df714aaed6285a5b7fc3a7807851e4
 C
 src/assets/home.css,3/3/33107902173814b167f979fdce37ff5220592eec
+E
+src/assets/navbar.css,1/e/1ee61e40178213652125d20197687ff6e4b6292d
+K
+src/pages/common/navbar.tsx,3/2/321532e5356dcbc30e037b8235f44e39f70f1d3f

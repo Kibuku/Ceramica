@@ -13,8 +13,8 @@ const Shop: Component = () => {
                 <div class="container h-100" >
                     <div class="h-100 w-100 d-flex justify-content-center align-items-center ">
                         
-                        <div class="container-fluid d-flex justify-content-center">
-                            <div class="  row home-container2  ">
+                        <div class="container-fluid d-flex justify-content-center  row w-50">
+
                                 <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Crockery</div>
                                  <div class="col-lg-1 mx-1"></div> 
                                 <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center ">Deco</div>
@@ -28,7 +28,7 @@ const Shop: Component = () => {
                                 <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Customs</div>
                                  <div class="col-lg-1 mx-1"></div> 
                                 {/* <div class="col-lg-5 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center">Curios</div> */}
-                            </div>
+
                         </div>
                     </div>
                 </div>

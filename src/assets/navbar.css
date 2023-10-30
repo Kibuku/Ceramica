@@ -2,10 +2,16 @@
     background-color: #87674F;
 }
 
+.modal-parent{
+    border-radius: 15px;
+}
 .text-brown{
     color: #87674F;
 }
-
+.preview-box{
+    height: 140px;
+    width: 140px;
+}
 .modal-backdrop {
     position: fixed;
     top: 0;

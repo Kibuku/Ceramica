@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="504c36d7-9213-46d0-b828-e5b1c152cf5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/classes/classes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/classes/classes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/common/cart/cart.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/common/cart/cart_payment.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/common/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/common/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,28 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/home/kamau/Development/Html/ceramica/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/kamau/Development/Html/ceramica/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698579190090</updated>
       <workItem from="1698579193304" duration="295000" />
-      <workItem from="1698579540830" duration="1625000" />
+      <workItem from="1698579540830" duration="4777000" />
+      <workItem from="1698607663382" duration="602000" />
     </task>
     <servers />
   </component>

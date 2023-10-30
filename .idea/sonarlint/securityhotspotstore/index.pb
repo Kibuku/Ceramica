@@ -7,3 +7,7 @@ G
 src/pages/shop/shop.tsx,9/a/9a29c35e626760e6161d74236cddda362d5480ed
 C
 src/assets/home.css,3/3/33107902173814b167f979fdce37ff5220592eec
+K
+src/pages/common/navbar.tsx,3/2/321532e5356dcbc30e037b8235f44e39f70f1d3f
+E
+src/assets/navbar.css,1/e/1ee61e40178213652125d20197687ff6e4b6292d
