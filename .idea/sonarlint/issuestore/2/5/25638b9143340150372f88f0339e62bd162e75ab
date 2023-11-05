@@ -1,0 +1,6 @@
+
+ujavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(úƒü¯ûÿÿÿÿ
+Wjavascript:S1481‰":Remove the declaration of the unused 'glightbox' variable.(şî·é
+Tjavascript:S1854‰"7Remove this useless assignment to variable "glightbox".(şî·é
+mjavascript:S1848"KEither remove this useless object instantiation of "PureCounter" or use it.(íóù´ûÿÿÿÿ
+hjavascript:S1848Â"FEither remove this useless object instantiation of "Swiper" or use it.(ñõ®Ÿûÿÿÿÿ

@@ -21,3 +21,19 @@ F
 src/index.tsx,5/a/5ab44fe33ca96299f51ad4778a73e425b92bf439
 G
 src/pages/home/home.tsx,7/5/7541f26a4cf9e69faf30a73c5fe143c3c9f5c653
+G
+src/assets/about_us.css,a/0/a0036b8bad7cb3578c9ffefdae4c99f710df7bb3
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+:
+
+index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
+L
+public/js/main_mobile_nav.js,2/5/25638b9143340150372f88f0339e62bd162e75ab
+<
+src/store.ts,9/d/9da959882fadb4f95c3ed3b3c355966663ac333a
+C
+public/css/main.css,d/0/d0f1886fc0a0279f9205fc77bd66c286db31a447
+R
+"src/pages/common/navbar_mobile.tsx,f/8/f8e3e0f63327f22f0a6d4748d43be83f545ad157

@@ -2,6 +2,7 @@ import {Component, createSignal} from "solid-js";
 import {setShowModalBackDrop, setShowNavbar, showNavbar} from "../../store";
 import {Button, Modal} from "solid-bootstrap";
 import "../../assets/navbar.css";
+import {useLocation} from "@solidjs/router";
 
 
 const NavBarMobile: Component = () => {
@@ -11,6 +12,8 @@ const NavBarMobile: Component = () => {
     const [show, setShow] = createSignal(false);
     const handleOpen = () => setShow(true);
     const handleClose = () => setShow(false);
+
+    const location = useLocation();
 
     const cartDetails = () => {
         return <div>
@@ -105,19 +108,20 @@ const NavBarMobile: Component = () => {
             <br/>
             <br/>
             <div class="row mt-5">
-                <div class="col-lg-6 text-white"><h2>Grand total</h2></div>
-                <div class="col-lg-6 text-white"><h2>$111.5</h2></div>
+                <div class="col-lg-6 text-white"><h2 class="text-white">Grand total</h2></div>
+                <div class="col-lg-6 text-white"><h2 class="text-white">$111.5</h2></div>
             </div>
             <h4 class="text-white my-5">Complete payment via :</h4>
             <div class="row ml-5">
-                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2>mpesa</h2></div>
-                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center  justify-content-center align-content-center"><h2>card</h2></div>
-                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2>cash</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2 class="text-white">mpesa</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center  justify-content-center align-content-center"><h2 class="text-white">card</h2></div>
+                <div class="col-lg-3 check-out-item-border py-3 text-uppercase text-white text-center justify-content-center align-content-center"><h2 class="text-white">cash</h2></div>
             </div>
             <div class="my-4"/>
         </div>
     }
 
+    console.log("Path "+location.pathname);
     return (
         <>
             {/*<!-- Fonts -->*/}
@@ -140,18 +144,18 @@ const NavBarMobile: Component = () => {
             <header id="header" class="header sticky-top d-flex align-items-center">
                 <div class="  d-flex align-items-center justify-content-centre">
 
-                <div class="site-logo col-8 text-black w-100">
+                <div class="site-logo col-12 col-lg-12 text-black w-100 ml-5">
                             <a href="/"><img src="images/logo_text.png" alt="ceramica" style="height:120px" /></a>
                 </div>
 
                     {/*  <!-- Nav Menu -->*/}
                     <nav id="navmenu" class="navmenu" >
                         <ul>
-                            <li><a href="/" class="nav-link active">Home</a></li>
-                            <li><a href="/shop">Shop</a></li>
-                            <li><a href="/classes">Classes</a></li>
-                            <li><a href="/about_us">About Us</a></li>
-                            <li><a href="/contact_us">Contact Us</a></li>
+                            <li><a href="/" class={location.pathname == "/" ? "nav-link active" : ""}>Home</a></li>
+                            <li><a href="/shop" class={location.pathname == "/shop" ? "nav-link active" : ""}>Shop</a></li>
+                            <li><a href="/classes" class={location.pathname == "/classes" ? "nav-link active" : ""}>Classes</a></li>
+                            <li><a href="/about_us" class={location.pathname == "/about_us" ? "nav-link active" : ""}>About Us</a></li>
+                            <li><a href="/contact_us" class={location.pathname == "/contact_us" ? "nav-link active" : ""}>Contact Us</a></li>
                             <li>
                                 <a href="" onClick={(e) => {
                                     e.preventDefault();
