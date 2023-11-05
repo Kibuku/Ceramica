@@ -9,20 +9,23 @@ import ContactUs from "./pages/contactUs/contact_us";
 import AboutUs from "./pages/aboutUs/aboutUs";
 import {createSignal} from "solid-js";
 import "./assets/navbar.css";
+import {showNavbar} from "./store";
 
 
 const App: Component = () => {
   return (
 
-        <Router>
-            <Routes>
-                <Route path="/contact_us" component={ContactUs} />
-                <Route path="/about_us" component={AboutUs} />
-                <Route path="/classes" component={Classes} />
-                <Route path="/shop" component={Shop} />
-                <Route path="/" component={Home} />
-            </Routes>
-        </Router>
+       <div class={showNavbar() ? "blog-page mobile-nav-active" : "blog-page"}>
+           <Router>
+               <Routes>
+                   <Route path="/contact_us" component={ContactUs} />
+                   <Route path="/about_us" component={AboutUs} />
+                   <Route path="/classes" component={Classes} />
+                   <Route path="/shop" component={Shop} />
+                   <Route path="/" component={Home} />
+               </Routes>
+           </Router>
+       </div>
 
   );
 };

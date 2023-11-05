@@ -4,6 +4,8 @@ import '../../assets/home.css';
 
 import {A, useNavigate} from "@solidjs/router";
 import {showModalBackDrop} from "../../store";
+import NavBar from "../common/navbar";
+import NavBarMobile from "../common/navbar_mobile";
 
 const Home: Component = () => {
     const navigate = useNavigate();
@@ -11,19 +13,21 @@ const Home: Component = () => {
         <div>
             {/*<div class={showModalBackDrop() ? "modal-backdrop" : ""} />*/}
 
-            <header class="site-navbar mt-3">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
+            {/*<header class="site-navbar mt-3">*/}
+            {/*    <div class="container-fluid">*/}
+            {/*        <div class="row align-items-center">*/}
 
-                        <div class="site-logo col-6 text-black">
-                            <A href="/">
-                                <img src="images/logo_text.png" alt="ceramica"
-                                     style="width:500px; height:500px ; margin-top:80%"/>
-                            </A>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            {/*            <div class="site-logo col-6 text-black">*/}
+            {/*                <A href="/">*/}
+            {/*                    <img src="images/logo_text.png" alt="ceramica"*/}
+            {/*                         style="width:500px; height:500px ; margin-top:80%"/>*/}
+            {/*                </A>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</header>*/}
+
+            <NavBarMobile />
             <div class="home-hero ">
 
 
