@@ -148,11 +148,12 @@ const NavBarMobile: Component = () => {
             {/* <!-- Template Main CSS File -->*/}
             {/*<link href="public/css/main.css" rel="stylesheet"/>*/}
             {/*  <!-- ======= Header ======= -->*/}
-            <header id="header" class="header sticky-top d-flex align-items-center">
-                <div class="  d-flex align-items-center justify-content-centre">
+            <header id="header" class="header sticky-top d-flex align-items-center ">
+                <div class="  d-flex align-items-center justify-content-centre ">
 
-                <div class="site-logo col-12  text-black w-100 ml-5 ">
-                            <a href="/"><img src="images/logo_text.png" alt="ceramica" style="height:120px" /></a>
+                <div class=" col-10 w-100 ml-2 ">
+                            <a href="/"><img src="images/logo_map2.png" alt="ceramica" style="height:100px" /></a>
+                            <a href="/"><img src="images/logo_text.png" alt="ceramica" style="height:100px" /></a>
                 </div>
 
                     {/*  <!-- Nav Menu -->*/}

@@ -6,13 +6,14 @@ import NavBarMobile from "../common/navbar_mobile";
 
 const AboutUs: Component = () => {
     return (
-        <div class="about-backdrop">
+        <div class="about-container">
             <NavBarMobile/>
+            <div class="about-backdrop">
 
-            <div class="container h-100" >
+            <div class="container h-100 " >
 
-                <div class=" w-100 d-flex justify-content-center align-items-center ">
-                    <div class="row w-100 mt-3  " >
+                <div class=" h-100 w-100 d-flex justify-content-center align-items-center ">
+                    <div class="row w-100 mt-5 " style="padding-top:10%" >
                         <div class=" h6 text-white col-12 my-5">
                             Ceramica is a premier ceramics studio located in the heart of Kenya, dedicated to the art of
                             crafting exquisite, tailor-made ceramics.
@@ -34,6 +35,7 @@ const AboutUs: Component = () => {
 
 
                 </div>
+            </div>
             </div>
         </div>
     );
