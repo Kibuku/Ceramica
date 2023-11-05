@@ -2,12 +2,13 @@ import type {Component} from 'solid-js';
 import NavBar from "../common/navbar";
 import "../../assets/classes.css";
 import {showModalBackDrop} from "../../store";
+import NavBarMobile from "../common/navbar_mobile";
 
 const Classes: Component = () => {
     return (
         <div class="classes-page-container">
             {/*<div class={showModalBackDrop() ? "modal-backdrop" : ""} />*/}
-            <NavBar/>
+            <NavBarMobile/>
 
             <div class="classes-hero"></div>
             <div class="classes-backdrop">
@@ -18,7 +19,7 @@ const Classes: Component = () => {
                         <div
                             class="col-lg-4 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center">On-Going
                         </div>
-                        <div class="col-lg-1 mx-1"></div>
+                        <div class="col-lg-4 mx-1 "></div>
                         <div
                             class="col-lg-4 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center">New
                         </div>

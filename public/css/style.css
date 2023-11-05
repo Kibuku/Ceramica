@@ -1,6 +1,6 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #fff;
+  background-color: #ccbaaa;
   /*height: 200vh;*/
   position: relative; }
   body:before {
@@ -86,7 +86,7 @@ a, a:hover {
 }
 
 .site-navbar .site-logo a {
-    color: #fff;
+    color: #ccbaaa;
     font-size: 1.5rem;
     letter-spacing: .2rem;
     text-transform: uppercase;
@@ -109,7 +109,7 @@ a, a:hover {
 }
 
 .site-navbar .site-menu-toggle {
-    color: #fff;
+    color: #ccbaaa;
     line-height: 0;
     font-size: 2.5rem;
     position: relative;
@@ -135,7 +135,7 @@ a, a:hover {
 }
 
 .site-navbar .site-navigation .site-menu .active {
-    color: #fff;
+    color: #ccbaaa;
     display: inline-block;
     padding: 5px 20px;
 }
@@ -158,7 +158,7 @@ a, a:hover {
 }
 
 .site-navbar .site-navigation .site-menu > li > a:hover {
-    color: #fff;
+    color: #ccbaaa;
 }
 
 .site-navbar .site-navigation .site-menu .has-children {
@@ -194,7 +194,7 @@ a, a:hover {
     padding: 0px 0;
     margin-top: 20px;
     margin-left: 0px;
-    background: #fff;
+    background: #ccbaaa;
     -webkit-transition: 0.2s 0s;
     -o-transition: 0.2s 0s;
     transition: 0.2s 0s;
@@ -217,7 +217,7 @@ a, a:hover {
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
     border-color: rgba(136, 183, 213, 0);
-    border-bottom-color: #fff;
+    border-bottom-color: #ccbaaa;
     border-width: 10px;
     margin-left: -10px;
 }
@@ -328,7 +328,7 @@ a, a:hover {
     right: 0;
     z-index: 2000;
     padding-top: 20px;
-    background: #fff;
+    background: #ccbaaa;
     height: calc(100vh);
     -webkit-transform: translateX(110%);
     -ms-transform: translateX(110%);
@@ -540,7 +540,7 @@ a, a:hover {
 
 @media (max-width: 991.98px) {
     .sticky-wrapper .site-menu-toggle {
-        color: #fff;
+        color: #ccbaaa;
     }
 }
 
@@ -560,7 +560,7 @@ a, a:hover {
 
 .sticky-wrapper .site-navbar .site-menu > li > a:after {
     height: 2px;
-    background: #fff;
+    background: #ccbaaa;
     content: "";
     position: absolute;
     bottom: 0;
@@ -575,7 +575,7 @@ a, a:hover {
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-    color: #fff;
+    color: #ccbaaa;
     position: relative;
 }
 
@@ -592,7 +592,7 @@ a, a:hover {
 .sticky-wrapper.is-sticky .site-navbar {
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
-    background: #fff;
+    background: #ccbaaa;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
@@ -651,7 +651,7 @@ a, a:hover {
 }
 
 .btn.btn-primary {
-    color: #fff;
+    color: #ccbaaa;
     background: #89ba16;
     border-color: #89ba16;
 }
@@ -664,12 +664,12 @@ a, a:hover {
 .btn.btn-outline-white {
     background: transparent;
     border-width: 2px;
-    border-color: #fff;
-    color: #fff;
+    border-color: #ccbaaa;
+    color: #ccbaaa;
 }
 
 .btn.btn-outline-white:hover {
-    background: #fff;
+    background: #ccbaaa;
     color: #000;
 }
 
@@ -678,6 +678,6 @@ a, a:hover {
 }
 
 .btn.btn-outline-primary:hover {
-    color: #fff;
+    color: #ccbaaa;
     background: #89ba16;
 }

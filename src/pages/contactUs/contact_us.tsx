@@ -1,26 +1,27 @@
 import type {Component} from 'solid-js';
 import NavBar from "../common/navbar";
 import "../../assets/contact_us.css";
+import NavBarMobile from "../common/navbar_mobile";
 
 const ContactUs: Component = () => {
     return (
         <div class="contact-backdrop-contact">
-            <NavBar/>
+            <NavBarMobile/>
 
-            <div class="container h-100">
+            <div class="container h-100 ">
 
-                <div  class="h-100 w-100 d-flex justify-content-center align-items-center">
-                    <div  class="row w-100">
+                <div  class=" w-100 d-flex justify-content-center align-items-center ">
+                    <div  class="row w-100 " style="padding-top:5%">
                         <div  class="text-white col-12 my-5">
                             <div  class="mb-3">
                                 <label for="exampleFormControlInput1"  class="form-label">Email address</label>
                                 <input type="email"  class="form-control inputStyle" id="exampleFormControlInput1" placeholder="name@example.com"/>
                             </div>
-                            <div  class="mb-3">
+                            <div  class="mb-5" >
                                 <label for="exampleFormControlTextarea1"  class="form-label">Message</label>
                                 <textarea class="form-control inputStyle" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <span class="contact-border">Send</span>
+                            <span class="contact-border" >Send</span>
                         </div>
                         <div  class="col-6 order-2">
                             <div   class="float-right">

@@ -1,10 +1,11 @@
 .modal-back-color{
-    background-color: black;
+    background-color: #473729;
     opacity: 90%;
+    
 }
 
 .modal-parent{
-    border-radius: 15px;
+    border-radius: 305px;
 }
 .text-brown{
     color: #87674F;
@@ -12,6 +13,7 @@
 .preview-box{
     height: auto;
     width: auto;
+    border-radius: 50px;
 }
 .modal-backdrop {
     position: fixed;

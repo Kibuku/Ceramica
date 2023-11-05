@@ -4,7 +4,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(16, 21, 44,0.4);
+    background-color: rgba(16, 21, 44,0.6);
     z-index: 1;
 }
 .shop-container{
@@ -15,6 +15,7 @@
     overflow: hidden; /* Prevent scrolling */
 }
 .shop-hero {
+    
     position: fixed; /* Fixed positioning */
     top: 0;
     left: 0;

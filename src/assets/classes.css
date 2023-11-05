@@ -4,7 +4,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(77, 55, 41,0.4);
+    background-color: rgba(77, 55, 41,0.8);
     z-index: 1;
 }
 .classes-page-container{
@@ -15,15 +15,18 @@
     overflow: hidden; /* Prevent scrolling */
 }
 .classes-hero {
-    position: fixed; /* Fixed positioning */
+    
+    position: absolute; /* Fixed positioning */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/35.jpg');
+    /* background-image: url('/images/35.jpg'); */
+    background: url('/images/35.jpg');
     background-size: cover;
     background-position: center;
 }
+
 .classes-place-me{
     position: absolute;
 

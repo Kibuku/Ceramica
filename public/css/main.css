@@ -19,26 +19,26 @@
 
 /* Global Colors */
 :root {
-  --background-color: #ffffff;
+  --background-color: #cccbaaa;
   --background-color-rgb: 255, 255, 255;
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
-  --primary-color: #e84545;
+  --primary-color: #87674F;
   --primary-color-rgb: 232, 69, 69;
   --secondary-color: #32353a;
   --secondary-color-rgb: 50, 53, 58;
-  --contrast-color: #ffffff;
+  --contrast-color: #000;
   --contrast-color-rgb: 255, 255, 255;
 }
 
 /* Nav Menu Colors */
 :root {
-  --nav-color: #3a3939;
-  --nav-hover-color: #e84545;
+  --nav-color: #fff;
+  --nav-hover-color: #87674f;
   --nav-dropdown-color: #3a3939;
-  --nav-dropdown-hover-color: #e84545;
-  --nav-dropdown-background-color: #ffffff;
-  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-hover-color: #87674F;
+  --nav-dropdown-background-color: #ccbaaa;
+  --nav-mobile-background-color: #ccbaaa;
 }
 
 /* Smooth scroll */
@@ -166,12 +166,13 @@ section {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #ffffff;
+  background-color: #ccbaaa;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+  padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
+  
 }
 
 .header .logo img {
@@ -232,7 +233,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: #CCBAAA;
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -263,7 +264,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #d83535;
+  --nav-hover-color:#CCBAAA;
 }
 
 /*--------------------------------------------------------------

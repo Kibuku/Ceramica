@@ -1,17 +1,18 @@
 import type {Component} from 'solid-js';
 
 import "../../assets/about_us.css";
-import NavBar from "../common/navbar";
+import NavBarMobile from "../common/navbar_mobile";
+
 
 const AboutUs: Component = () => {
     return (
         <div class="about-backdrop">
-            <NavBar/>
+            <NavBarMobile/>
 
-            <div class="container h-100">
+            <div class="container h-100" >
 
-                <div class="h-100 w-100 d-flex justify-content-center align-items-center">
-                    <div class="row w-100 ">
+                <div class=" w-100 d-flex justify-content-center align-items-center ">
+                    <div class="row w-100 " style="padding-top:5%">
                         <div class=" h6 text-white col-12 my-5">
                             Ceramica is a premier ceramics studio located in the heart of Kenya, dedicated to the art of
                             crafting exquisite, tailor-made ceramics.

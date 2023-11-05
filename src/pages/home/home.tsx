@@ -31,14 +31,14 @@ const Home: Component = () => {
             <div class="home-hero ">
 
 
-                <div class=" h-100  align-self-end ">
+                <div class=" container h-100  align-self-end  ">
 
                     <div class="h-100  w-100 d-flex justify-content-end align-items-center  ">
 
 
-                        <div class="row home-container1 w-40 justify-content-center" style = "margin-right:5%" >
+                        <div class="row  h-80 w-50 justify-content-center" style = "padding-top:10%" >
                             <div
-                                class=" col-lg-5 text-brown h2 py-4 home-border d-flex align-items-center justify-content-center"
+                                class=" col-lg-5 text-white h2 py-4 home-border d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     e.preventDefault();
                                     navigate("/shop");
@@ -46,7 +46,7 @@ const Home: Component = () => {
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
-                                class="col-lg-5 text-brown h2 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h2 py-4 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/classes");
                                 }}>CLASSES
@@ -54,14 +54,14 @@ const Home: Component = () => {
 
                             <div class="col-lg-12 my-4"></div>
                             <div
-                                class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/about_us");
                                 }}>ABOUT US
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
-                                class="col-lg-5 text-brown h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h3 py-4 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/contact_us");
                                 }}>CONTACT US
