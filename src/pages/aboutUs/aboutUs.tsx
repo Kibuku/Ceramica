@@ -12,7 +12,7 @@ const AboutUs: Component = () => {
             <div class="container h-100" >
 
                 <div class=" w-100 d-flex justify-content-center align-items-center ">
-                    <div class="row w-100 " style="padding-top:5%">
+                    <div class="row w-100 mt-3  " >
                         <div class=" h6 text-white col-12 my-5">
                             Ceramica is a premier ceramics studio located in the heart of Kenya, dedicated to the art of
                             crafting exquisite, tailor-made ceramics.
