@@ -2,6 +2,13 @@ import {Component, createSignal} from "solid-js";
 import {setShowModalBackDrop, setShowNavbar, showNavbar} from "../../store";
 import {Button, Modal} from "solid-bootstrap";
 import "../../assets/navbar.css";
+
+import "../../assets/vendor/bootstrap/css/bootstrap.min.css";
+import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css";
+import "../../assets/vendor/glightbox/css/glightbox.min.css";
+import "../../assets/vendor/swiper/swiper-bundle.min.css";
+import "../../assets/vendor/aos/aos.css";
+import "../../assets/mobile_navbar.css";
 import {useLocation} from "@solidjs/router";
 
 
@@ -132,14 +139,14 @@ const NavBarMobile: Component = () => {
                 rel="stylesheet"/>
 
             {/* <!-- Vendor CSS Files -->*/}
-            <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-            <link href="public/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
-            <link href="public/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
-            <link href="public/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
-            <link href="public/vendor/aos/aos.css" rel="stylesheet"/>
+            {/*<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>*/}
+            {/*<link href="public/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>*/}
+            {/*<link href="public/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>*/}
+            {/*<link href="public/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>*/}
+            {/*<link href="public/vendor/aos/aos.css" rel="stylesheet"/>*/}
 
             {/* <!-- Template Main CSS File -->*/}
-            <link href="public/css/main.css" rel="stylesheet"/>
+            {/*<link href="public/css/main.css" rel="stylesheet"/>*/}
             {/*  <!-- ======= Header ======= -->*/}
             <header id="header" class="header sticky-top d-flex align-items-center">
                 <div class="  d-flex align-items-center justify-content-centre">
