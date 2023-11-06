@@ -13,13 +13,13 @@ const Classes: Component = () => {
             <div class="classes-hero"></div>
             <div class="classes-backdrop">
 
-                <div class="container h-100 w-100 ">
+                <div class="container h-100 w-100 bg-dark">
 
-                    <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="d-flex mt-5 justify-content-center align-items-center h-100  bg-danger" style="padding-top:10%">
                         
                         <div
-                            class="col-lg-6 text-white  h2 text-uppercase py-4 home-border 
-                            d-flex justify-content-center align-items-center">Book a Class
+                            class="col-lg-6  text-white  h2 text-uppercase py-4 home-border 
+                            d-flex justify-content-center align-items-center" >Book a Class
                         </div>
                     </div>
 

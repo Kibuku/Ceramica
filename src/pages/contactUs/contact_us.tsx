@@ -7,11 +7,12 @@ const ContactUs: Component = () => {
     return (
         <div class="contact-backdrop-contact">
             <NavBarMobile/>
+            <div class="contact-hero"></div>
 
             <div class="container h-100 ">
 
                 <div  class=" w-100 d-flex justify-content-center align-items-center ">
-                    <div  class="row w-100 " style="padding-top:5%">
+                    <div  class="row w-100 " style="">
                         <div  class="text-white col-12 my-5">
                             <div  class="mb-3">
                                 <label for="exampleFormControlInput1"  class="form-label">Email address</label>
