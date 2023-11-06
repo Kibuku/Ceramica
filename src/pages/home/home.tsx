@@ -38,7 +38,7 @@ const Home: Component = () => {
 
                         <div class="row mt-5 h-80 w-50 justify-content-center" style = "margin-right:5%" >
                             <div
-                                class=" col-lg-5 text-white h4 py-3 my-3 home-border d-flex align-items-center justify-content-center" 
+                                class=" col-lg-5 text-white h6 py-3 my-3 home-border d-flex align-items-center justify-content-center" 
                                 onClick={(e) => {
                                     e.preventDefault();
                                     navigate("/shop");
@@ -46,7 +46,7 @@ const Home: Component = () => {
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
-                                class="col-lg-5 text-white h4 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/classes");
                                 }}>CLASSES
@@ -54,14 +54,14 @@ const Home: Component = () => {
 
                             <div class=" my-3"></div>
                             <div
-                                class="col-lg-5 text-white h4 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/about_us");
                                 }}>ABOUT US
                             </div>
                             <div class="col-lg-1 mx-1"></div>
                             <div
-                                class="col-lg-5 text-white h4 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
+                                class="col-lg-5 text-white h6 my-3 py-3 home-border text-center d-flex align-items-center justify-content-center"
                                 onClick={(e) => {
                                     navigate("/contact_us");
                                 }}>CONTACT US

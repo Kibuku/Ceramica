@@ -16,19 +16,19 @@ const Shop: Component = () => {
                         
                         <div class=" d-flex justify-content-center row w-75" style="padding-top:5%">
 
-                                <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center  px-5 ">Crockery</div>
-                                 <div class="col-lg-1  col-md-0 col-sm-0 mx-1"></div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center px-5 ">Deco</div>
-                                 <div class="col-lg-1 mx-1"></div>
-                                 <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center px-5  ">Tiles</div>
+                                <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border d-flex justify-content-center align-items-center  px-5 ">Crockery</div>
+                                 <div class="col-lg-2  col-md-0 col-sm-0 mx-1"></div>
+                                <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border d-flex justify-content-center align-items-center px-5 ">Deco</div>
+                                 <div class="col-lg-2 mx-1"></div>
+                                 <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border d-flex justify-content-center align-items-center px-5  ">Tiles</div>
 
                                 {/* <div class="col-lg-12 my-3"></div> */}
 
-                                <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5 " >Clay</div>
-                                 <div class="col-lg-1 mx-1"></div> 
-                                <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5">Customs</div>
-                                 <div class="col-lg-1 mx-1"></div> 
-                                 <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5">Curios</div>
+                                <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5 " >Clay</div>
+                                 <div class="col-lg-2 mx-1"></div> 
+                                <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5">Customs</div>
+                                 <div class="col-lg-2 mx-1"></div> 
+                                 <div class="col-lg-2 col-md-6 col-sm-12 text-white h6 text-uppercase py-4 home-border text-center d-flex justify-content-center align-items-center px-5">Curios</div>
 
                         </div>
                     </div>

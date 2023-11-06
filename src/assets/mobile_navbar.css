@@ -23,7 +23,7 @@
   --background-color-rgb: 255, 255, 255;
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
-  --primary-color: #87674F;
+  --primary-color: #000;
   --primary-color-rgb: 232, 69, 69;
   --secondary-color: #32353a;
   --secondary-color-rgb: 50, 53, 58;
@@ -37,8 +37,8 @@
   --nav-hover-color: #87674f;
   --nav-dropdown-color: #3a3939;
   --nav-dropdown-hover-color: #87674F;
-  --nav-dropdown-background-color: #ccbaaa;
-  --nav-mobile-background-color: #ccbaaa;
+  --nav-dropdown-background-color: #000;
+  --nav-mobile-background-color: #000;
 }
 
 /* Smooth scroll */

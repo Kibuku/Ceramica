@@ -18,7 +18,7 @@ const Classes: Component = () => {
                     <div class="d-flex mt-5 justify-content-center align-items-center h-100  bg-danger" style="padding-top:10%">
                         
                         <div
-                            class="col-lg-6  text-white  h2 text-uppercase py-4 home-border 
+                            class="col-lg-3  text-white  h6 text-uppercase py-4 home-border 
                             d-flex justify-content-center align-items-center" >Book a Class
                         </div>
                     </div>
