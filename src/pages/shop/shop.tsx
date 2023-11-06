@@ -14,7 +14,7 @@ const Shop: Component = () => {
                 <div class="container h-100 " >
                     <div class=" w-100 d-flex justify-content-center align-items-center  ">
                         
-                        <div class="  d-flex justify-content-center row w-75" style="">
+                        <div class=" d-flex justify-content-center row w-75" style="padding-top:5%">
 
                                 <div class="col-lg-3 col-md-6 col-sm-12 text-white h3 text-uppercase py-4 home-border d-flex justify-content-center align-items-center  px-5 ">Crockery</div>
                                  <div class="col-lg-1  col-md-0 col-sm-0 mx-1"></div>

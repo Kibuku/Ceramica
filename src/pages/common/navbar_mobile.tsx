@@ -151,7 +151,7 @@ const NavBarMobile: Component = () => {
             <header id="header" class="header sticky-top d-flex align-items-center ">
                 <div class="  d-flex align-items-center justify-content-centre ">
 
-                <div class=" col-12 w-100 ml-0 ">
+                <div class=" col-12 w-100 ml-4 zoom">
                             {/* <a href="/"><img src="images/logo_map2.png" alt="ceramica" style="height:100px" /></a> */}
                             <a href="/"><img src="images/logo_text.png" alt="ceramica" style="height:200px" /></a>
                 </div>
